@@ -1,0 +1,9 @@
+// pip install pywhatkit 
+import pywhatkit as kit
+
+phone_number = "+91 jisko message karna hai uske number dalo"  
+
+message = "Hello kaisa hai"
+hour = 10
+minute = 54
+kit.sendwhatmsg(phone_number, message, hour, minute)
