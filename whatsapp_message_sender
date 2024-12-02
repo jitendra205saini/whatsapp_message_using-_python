@@ -1,9 +1,16 @@
 // pip install pywhatkit 
-import pywhatkit as kit
+import pywhatkit 
 
-phone_number = "+91 jisko message karna hai uske number dalo"  
+MobileNo = "+91 enter reciver mobile number"
+Msg = "Hello Bhai kesa hai"
 
-message = "Hello kaisa hai"
-hour = 10
-minute = 54
-kit.sendwhatmsg(phone_number, message, hour, minute)
+hour= 21
+minute = 1
+pywhatkit.sendwhatmsg(MobileNo,Msg,hour,minute)
+
+#image send karne ke liye code
+
+#imagePath = "D://machine larning//CRT//image//captured_photo.jpg"
+#Caption = "A thumbnail"
+
+#pywhatkit.sendwhats_image(MobileNo , imagePath,Caption,hour,minute)
